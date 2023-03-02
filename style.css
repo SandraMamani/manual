@@ -1,0 +1,46 @@
+body
+{
+    background-color: #1a4781;
+    color: white;
+}
+
+
+thead{
+    background-color: #A9E9EB;;
+    color: black
+}
+
+a{
+    color:rgb(120, 188, 209);
+}
+
+td
+{
+    height: 2em; 
+}
+
+table, td, th{
+    border: 2px white solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.element{
+    text-align: center;
+    width: 10%;
+}
+
+
+.italic{
+    font-style: italic;
+}
+
+#autor{
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle{
+    text-indent: 2.5%;
+}
