@@ -1,9 +1,16 @@
-body
-{
+
+body{    
     background-color: #1a4781;
     color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: url(imagenes/v.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
 }
-
 
 thead{
     background-color: #A9E9EB;;
@@ -43,4 +50,39 @@ table, td, th{
 
 .subtitle{
     text-indent: 2.5%;
+}
+
+a:hover{
+    padding:10px;
+    border-radius: 15%;
+    color: whitesmoke;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    text-align: center;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    background: linear-gradient( rgb(71, 96, 165),#272979d2);
+    opacity: 0.87;
+    padding-left: 12px;
+}
+
+h3{
+    color: white;
+}
+
+h4{
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 1.5em;
+    color: aqua;
+}
+h5{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.5em;
 }
